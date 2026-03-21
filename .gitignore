@@ -1,0 +1,27 @@
+# Firebase credentials — NEVER commit this file
+camera/firebase_datos.h
+
+# WiFi credentials if stored separately
+secrets.h
+credentials.h
+
+# Arduino build output
+build/
+*.bin
+*.elf
+*.map
+
+# KiCad auto-generated files
+hardware/*.kicad_prl
+hardware/*-backups/
+hardware/fp-info-cache
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
