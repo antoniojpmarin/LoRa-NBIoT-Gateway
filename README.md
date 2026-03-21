@@ -80,6 +80,23 @@ Heltec WiFi LoRa32 (V2) Gateway firmware. Handles:
 
 ---
 
+## Dependencies
+
+Install the following libraries via Arduino IDE Library Manager before compiling:
+
+| Library | Author | Used in |
+|---|---|---|
+| `LoRa` | Sandeep Mistry | `gateway/` |
+| `Firebase ESP Client` | Mobizt | `camera/` |
+| `LittleFS` | lorol | `camera/` |
+| `esp_camera` | Espressif (built-in) | `camera/` |
+| `HardwareSerial` | Espressif (built-in) | `gateway/` |
+
+Board support: install **ESP32 by Espressif Systems** via Arduino IDE Boards Manager.
+
+
+---
+
 ## Results
 
 - Functional LoRa transmission between node and Gateway in an outdoor environment
@@ -106,7 +123,7 @@ Heltec WiFi LoRa32 (V2) Gateway firmware. Handles:
 
 **MCU:** ESP32 ( ![Heltec WiFi LoRa32 V2](https://heltec.org/project/wifi-lora-32v2), ![ESP32-CAM](https://tienda.bricogeek.com/arduino-compatibles/1912-esp32-cam-esp32-con-camara-ov2640.html))  
 **Protocols:** LoRa, NB-IoT, WiFi, SPI, I²C, UART  
-**Cloud:** ![Firebase](https://firebase.google.com/), ![Thingspeak](https://thingspeak.mathworks.com/)  
+**Cloud:** [Firebase](https://firebase.google.com/), [Thingspeak](https://thingspeak.mathworks.com/)  
 **Languages:** C / C++  
 **IDE:** ![Arduino IDE 2.0](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/)
 **Schematics:** ![KiCad](https://www.kicad.org/download/)
