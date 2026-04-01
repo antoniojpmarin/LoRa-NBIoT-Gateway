@@ -31,14 +31,16 @@ The system operates autonomously powered by a solar panel and lead-acid battery.
 
 ## Hardware
 
-| Component | Role |
+[Perfboard Prototype](https://github.com/antoniojpmarin/LoRa-NBIoT-Gateway/blob/main/hardware/tfg_image.png)
+
+| Component | Role | Number in Image
 |---|---|
-| Heltec WiFi LoRa32 (V2) | Main MCU + LoRa radio + OLED display |
-| ESP32-CAM + OV2640 | Image capture and upload (up to 2 MP) |
-| SIM7020-E | NB-IoT connectivity (M2M) |
-| Solar panel + Lead-acid battery | Autonomous outdoor power supply |
-| Buck converter MP1584 (DC-DC) | Voltage regulation |
-| Perfboard | Final assembly and soldering |
+| Heltec WiFi LoRa32 (V2) | Main MCU + LoRa radio + OLED display |    5     |
+| ESP32-CAM + OV2640 | Image capture and upload (up to 2 MP) |        3     |
+| SIM7020-E | NB-IoT connectivity (M2M) |              4          |
+| Solar panel + Lead-acid battery | Autonomous outdoor power supply |     Not in the Image   |
+| Buck converter MP1584 (DC-DC) | Voltage regulation |    1    |
+| Perfboard | Final assembly and soldering |    Image    |
 
 ---
 
